@@ -1,0 +1,647 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harini A | CSE Student & Aspiring Developer</title>
+    <meta name="description" content="Portfolio of Harini A, a Computer Science and Engineering student interested in web development, programming and data science.">
+    <meta name="keywords" content="Harini A, CSE Student, Web Developer, Data Science, Portfolio">
+    <meta name="author" content="Harini A">
+    <meta name="theme-color" content="#f5eee5">
+
+    <!-- Google Fonts -->
+    <link rel="icon" href="image.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="portfolio.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">harini<span>.</span></a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <a href="#contact" class="nav-contact">Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero-orb orb-one"></div>
+            <div class="hero-orb orb-two"></div>
+            <div class="hero-grid"></div>
+
+            <div class="container hero-content">
+                <div class="hero-left">
+
+                    <div class="availability">
+                        <span class="availability-dot"></span>
+                        Open to internship opportunities
+                    </div>
+
+                    <p class="hero-greeting">HELLO, WORLD! I'M</p>
+
+                    <h1 class="hero-name">
+                        HARINI <span>A.</span>
+                    </h1>
+
+                    <h2 class="hero-role">
+                        I'm an <span id="typingText">CSE Student</span><span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        Exploring the world of technology, building creative
+                        digital experiences and turning ideas into meaningful projects.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            View Projects <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="assets/Harini-A-Resume.pdf" download class="btn btn-outline">
+                            Download Resume <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span>FIND ME ON</span>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-right">
+                    <div class="hero-card glass-card">
+                        <div class="hero-card-top">
+                            <span class="card-dot"></span>
+                            <span class="card-dot"></span>
+                            <span class="card-dot"></span>
+                            <span class="card-file">about_me.txt</span>
+                        </div>
+
+                        <div class="hero-code">
+                            <p><span class="code-purple">const</span> developer = {</p>
+                            <p class="code-indent"><span class="code-orange">name</span>: <span class="code-green">"Harini A"</span>,</p>
+                            <p class="code-indent"><span class="code-orange">degree</span>: <span class="code-green">"B.E. CSE"</span>,</p>
+                            <p class="code-indent"><span class="code-orange">year</span>: <span class="code-number">2</span>,</p>
+                            <p class="code-indent"><span class="code-orange">interests</span>: [</p>
+                            <p class="code-indent code-indent-two"><span class="code-green">"Web Development"</span>,</p>
+                            <p class="code-indent code-indent-two"><span class="code-green">"Data Science"</span></p>
+                            <p class="code-indent">],</p>
+                            <p class="code-indent"><span class="code-orange">mindset</span>: <span class="code-green">"Always Learning"</span></p>
+                            <p>};</p>
+                            <p class="code-comment">// Building something meaningful.</p>
+                        </div>
+
+                        <div class="hero-card-bottom">
+                            <span><i class="fa-solid fa-circle-check"></i> Ready to learn</span>
+                            <span>v.2026</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-tag tag-top">
+                        <i class="fa-solid fa-code"></i> Creative Coder
+                    </div>
+
+                    <div class="floating-tag tag-bottom">
+                        <i class="fa-solid fa-lightbulb"></i> Curious Mind
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">A LITTLE INTRODUCTION</span>
+                    <h2>Getting to know <span>me.</span></h2>
+                    <p>A curious mind with a passion for technology and creativity.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-wrap reveal">
+                        <!-- Replace profile.jpg with your own photo -->
+                        <div class="about-image">
+                            <img src="assets/profile.jpg" alt="Portrait of Harini A" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+                            <div class="image-placeholder">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Your Photo Here</span>
+                            </div>
+                        </div>
+                        <div class="image-decoration"></div>
+
+                        <div class="about-sticker">
+                            <span class="sticker-icon">✳</span>
+                            <span>LEARN.</span>
+                            <span>BUILD.</span>
+                            <span>GROW.</span>
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal">
+                        <span class="about-label">WHO AM I?</span>
+
+                        <h3>Technology enthusiast, lifelong learner and aspiring developer.</h3>
+
+                        <p>
+                            I'm Harini A, a second-year B.E. Computer Science and
+                            Engineering student at Mohamed Sathak A.J. College of
+                            Engineering, Chennai. I have a growing interest in
+                            programming, web development and data science.
+                        </p>
+
+                        <p>
+                            I enjoy exploring new technologies, developing small
+                            projects and improving my problem-solving skills.
+                            I'm currently strengthening my technical foundations
+                            while looking forward to gaining practical experience
+                            through projects and internship opportunities.
+                        </p>
+
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div>
+                                    <span>EDUCATION</span>
+                                    <strong>B.E. Computer Science</strong>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <i class="fa-solid fa-building-columns"></i>
+                                <div>
+                                    <span>COLLEGE</span>
+                                    <strong>MSAJCE, Chennai</strong>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <i class="fa-solid fa-bullseye"></i>
+                                <div>
+                                    <span>CAREER INTEREST</span>
+                                    <strong>Data Science & Software Development</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="#contact" class="text-link">
+                            Let's connect <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">MY TECH TOOLKIT</span>
+                    <h2>Skills & <span>technologies.</span></h2>
+                    <p>The tools and technologies I'm familiar with and exploring.</p>
+                </div>
+
+                <div class="skills-layout">
+
+                    <div class="skills-column reveal">
+                        <div class="column-title">
+                            <div class="column-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div>
+                                <h3>Technical Skills</h3>
+                                <p>Currently familiar with</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-grid">
+                            <div class="skill-card">
+                                <i class="fa-brands fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-c"></i>
+                                <span>C Basics</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-solid fa-code"></i>
+                                <span>C++ Basics</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-java"></i>
+                                <span>Java Basics</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-react"></i>
+                                <span>React Basics</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column tools-column reveal">
+                        <div class="column-title">
+                            <div class="column-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                            <div>
+                                <h3>Tools I Use</h3>
+                                <p>My creative workspace</p>
+                            </div>
+                        </div>
+
+                        <div class="tools-list">
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-solid fa-code"></i></span>
+                                <span>Visual Studio Code</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-brands fa-github"></i></span>
+                                <span>GitHub</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                                <span>Antigravity</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-brands fa-figma"></i></span>
+                                <span>Figma</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-solid fa-palette"></i></span>
+                                <span>Canva</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-solid fa-microchip"></i></span>
+                                <span>Arduino IDE</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-brands fa-chrome"></i></span>
+                                <span>Chrome DevTools</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                            <div class="tool-item">
+                                <span class="tool-icon"><i class="fa-solid fa-cloud-arrow-up"></i></span>
+                                <span>Netlify</span>
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning skills are intentionally separated -->
+                <div class="learning-box reveal">
+                    <div class="learning-heading">
+                        <i class="fa-solid fa-book-open"></i>
+                        <div>
+                            <h3>Currently Learning</h3>
+                            <p>Technologies I'm working towards improving.</p>
+                        </div>
+                    </div>
+
+                    <div class="learning-tags">
+                        <span>Responsive Web Design</span>
+                        <span>Advanced JavaScript</span>
+                        <span>React Development</span>
+                        <span>Data Structures & Algorithms</span>
+                        <span>Data Analysis</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">A FEW THINGS I'VE BUILT</span>
+                    <h2>Ideas into <span>projects.</span></h2>
+                    <p>Small steps, practical learning and continuous improvement.</p>
+                </div>
+
+                <div class="project-grid">
+
+                    <!-- Project 1 -->
+                    <article class="project-card project-large reveal">
+                        <div class="project-visual resume-visual">
+                            <div class="visual-browser">
+                                <div class="browser-top">
+                                    <span></span><span></span><span></span>
+                                    <div>my-resume.html</div>
+                                </div>
+                                <div class="resume-preview">
+                                    <div class="resume-preview-sidebar">
+                                        <div class="resume-avatar">H</div>
+                                        <div></div><div></div><div></div>
+                                    </div>
+                                    <div class="resume-preview-content">
+                                        <div class="resume-line title-line"></div>
+                                        <div class="resume-line"></div>
+                                        <div class="resume-line short-line"></div>
+                                        <div class="resume-subtitle"></div>
+                                        <div class="resume-line"></div>
+                                        <div class="resume-line short-line"></div>
+                                        <div class="resume-subtitle"></div>
+                                        <div class="resume-line"></div>
+                                        <div class="resume-line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="project-category">WEB DEVELOPMENT</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-number">01 / PERSONAL PROJECT</div>
+                            <h3>Resume Website</h3>
+                            <p>
+                                A personal resume website designed to present
+                                educational details, skills and personal information
+                                in a clean and organized layout.
+                            </p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    GitHub <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card project-small reveal">
+                        <div class="project-visual calculator-visual">
+                            <div class="calculator-preview">
+                                <div class="calc-display">
+                                    <small>125 + 75</small>
+                                    <strong>200</strong>
+                                </div>
+                                <div class="calc-buttons">
+                                    <span>AC</span><span>±</span><span>%</span><span class="calc-orange">÷</span>
+                                    <span>7</span><span>8</span><span>9</span><span class="calc-orange">×</span>
+                                    <span>4</span><span>5</span><span>6</span><span class="calc-orange">−</span>
+                                    <span>1</span><span>2</span><span>3</span><span class="calc-orange">+</span>
+                                    <span class="calc-zero">0</span><span>.</span><span class="calc-orange">=</span>
+                                </div>
+                            </div>
+                            <span class="project-category">JAVASCRIPT</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-number">02 / PERSONAL PROJECT</div>
+                            <h3>Interactive Calculator</h3>
+                            <p>
+                                A simple calculator that performs basic arithmetic
+                                operations with an easy-to-use interface and
+                                interactive buttons.
+                            </p>
+                            <div class="tech-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    GitHub <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Future Project 1 -->
+                    <article class="project-card future-card reveal">
+                        <div class="future-visual">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <span class="coming-soon">COMING SOON</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-number">03 / UPCOMING</div>
+                            <h3>Data Analytics Project</h3>
+                            <p>
+                                An upcoming project exploring datasets, data
+                                visualization and meaningful insights.
+                            </p>
+                            <div class="tech-tags">
+                                <span>Python</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="project-link">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Future Project 2 -->
+                    <article class="project-card future-card reveal">
+                        <div class="future-visual future-two">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span class="coming-soon">COMING SOON</span>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-number">04 / UPCOMING</div>
+                            <h3>Creative Web Experience</h3>
+                            <p>
+                                A future interactive web project focused on
+                                responsive layouts and user-friendly design.
+                            </p>
+                            <div class="tech-tags">
+                                <span>JavaScript</span>
+                                <span>React</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="#" class="project-link">GitHub <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+
+                    <div class="contact-left reveal">
+                        <span class="eyebrow contact-eyebrow">HAVE AN IDEA? LET'S CONNECT</span>
+
+                        <h2 class="contact-title">
+                            Let's create<br>
+                            <span>something.</span>
+                        </h2>
+
+                        <p class="contact-tagline">Great ideas start with a hello.</p>
+
+                        <p class="contact-description">
+                            Interested in collaborating, discussing projects or
+                            sharing opportunities? I'd love to hear from you.
+                            Let's connect and create something meaningful.
+                        </p>
+
+                        <a href="mailto:harinianandan007@example.com" class="contact-email">
+                            <i class="fa-regular fa-envelope"></i>
+                            harinianandan007@gmail.com
+                        </a>
+
+                        <div class="contact-socials">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="mailto:harinianandan007@example.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-right reveal">
+                        <div class="contact-form-card">
+                            <div class="form-heading">
+                                <span>DROP A MESSAGE</span>
+                                <i class="fa-regular fa-paper-plane"></i>
+                            </div>
+
+                            <!-- JavaScript opens the visitor's email app -->
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="What should I call you?" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Your Message</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Tell me what's on your mind..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn contact-submit">
+                                    Let's Talk <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </button>
+
+                                <p class="form-note" id="formNote">
+                                    <i class="fa-solid fa-lock"></i> Your details will be used to prepare an email.
+                                </p>             
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contact-bottom reveal">
+                    <span>MADE WITH <i class="fa-solid fa-heart"></i> AND A LITTLE COFFEE.</span>
+                    <span>ALWAYS LEARNING. ALWAYS BUILDING.</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">harini<span>.</span></a>
+                <p>A CSE student exploring technology, creativity and the possibilities of tomorrow.</p>
+            </div>
+
+            <div class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> HARINI A. All rights reserved.</p>
+                <a href="#home" class="back-top">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating scroll-to-top button -->
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+</body>
+</html>
